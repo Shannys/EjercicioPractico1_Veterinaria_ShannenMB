@@ -1,0 +1,4 @@
+package com.veterinaria.repository;
+import com.veterinaria.domain.TipoServicio;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface TipoServicioRepository extends JpaRepository<TipoServicio, Integer> {}

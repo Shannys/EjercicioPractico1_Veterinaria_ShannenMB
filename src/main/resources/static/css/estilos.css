@@ -1,0 +1,8 @@
+:root{--verde:#167c69;--oscuro:#17453f;--crema:#f4faf7}
+body{background:var(--crema);color:#243a35;font-family:system-ui,sans-serif}
+header.hero{background:linear-gradient(125deg,#126d60,#289f81);color:#fff}
+.navbar-brand,.nav-link{font-weight:600}.nav-link{margin-right:12px}
+.card{border:0;box-shadow:0 3px 18px #113a2920;border-radius:14px}
+.btn-primary{background:var(--verde);border-color:var(--verde)}.btn-primary:hover{background:var(--oscuro);border-color:var(--oscuro)}
+.table thead{background:#e0f2eb}.table thead th{background:#d6eee5;color:var(--oscuro)}
+footer{background:var(--oscuro);color:white}main{min-height:55vh}

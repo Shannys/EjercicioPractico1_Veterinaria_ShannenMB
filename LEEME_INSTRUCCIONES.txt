@@ -1,0 +1,17 @@
+PROYECTO VETERINARIA - CASO PRÁCTICO 1
+====================================
+1. Extrae la carpeta incluida en el ZIP.
+2. Abre MySQL Workbench con la cuenta administradora (root).
+3. Ejecuta veterinaria_citas.sql COMPLETO (BORRA y recrea la base de datos veterinaria_citas).
+4. En NetBeans: File > Open Project > selecciona la carpeta que contiene pom.xml.
+5. Comprueba que MySQL esté encendido en localhost:3306.
+6. Ejecuta VeterinariaApplication.java o Run Project. Java 21 / Maven.
+7. Visita http://localhost:8086/
+8. Verifica Inicio, Tipos de servicio, Servicios, Citas y Consultas.
+9. Abre GitHub Desktop; crea repositorio local desde esta carpeta; vincula el repositorio remoto solicitado y ejecuta Commit / Push.
+10. El repositorio remoto debe llamarse EjercicioPractico1_Veterinaria_TUNOMBRE.
+
+IMPORTANTE: Este proyecto no contiene el motor MySQL ni una base de datos ya instalada.
+Los datos se cargan al ejecutar el script SQL local. La configuración usa credenciales del enunciado para uso académico local.
+No publiques credenciales reales. Si mysql usa un puerto diferente, actualiza application.properties.
+Revisa los requisitos de la rúbrica y prueba todas las pantallas antes de entregar.

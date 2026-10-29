@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="es" xmlns:th="http://www.thymeleaf.org"><body>
+<header class="hero py-4" th:fragment="cabecera"><div class="container"><h1 class="h2 mb-1" th:text="#{sitio.nombre}">Huellitas</h1><p class="mb-0" th:text="#{sitio.lema}">Cuidado animal</p></div></header>
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom" th:fragment="navegacion"><div class="container flex-wrap gap-2"><a class="navbar-brand" th:href="@{/}" th:text="#{sitio.nombre}">Huellitas</a><div class="d-flex flex-wrap gap-3"><a class="nav-link" th:href="@{/}" th:text="#{menu.inicio}">Inicio</a><a class="nav-link" th:href="@{/tipos}" th:text="#{menu.tipos}">Tipos</a><a class="nav-link" th:href="@{/servicios}" th:text="#{menu.servicios}">Servicios</a><a class="nav-link" th:href="@{/citas}" th:text="#{menu.citas}">Citas</a><a class="nav-link" th:href="@{/consultas}" th:text="#{menu.contacto}">Consultas</a></div></div></nav>
+<footer class="py-4 mt-5 text-center" th:fragment="pie"><div class="container" th:text="#{pie.texto}">Clínica Huellitas</div></footer>
+<div th:fragment="avisos"><div class="alert alert-success" role="alert" th:if="${mensaje}" th:text="${mensaje}"></div><div class="alert alert-danger" role="alert" th:if="${error}" th:text="${error}"></div></div>
+</body></html>
